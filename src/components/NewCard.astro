@@ -1,17 +1,16 @@
 ---
 
 ---
-
-<div class="bg-slate-100 rounded-lg shadow-lg w-3/6 my-8">
+<div class="bg-slate-100 rounded-lg shadow-lg w-full md:w-3/6 my-8 mx-auto">
   <div class="grid grid-cols-1 md:grid-cols-2">
-    <div class="bg-blue-400 w-44 h-44 rounded-full overflow-hidden mx-24 my-8">
+    <div class="bg-blue-400 w-44 h-44 rounded-full overflow-hidden mx-auto my-8">
       <img
         src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt=""
-        class="w-full h-full object-hidden transition-shadow"
+        class="w-full h-full object-cover transition-shadow"
       />
     </div>
-    <div class="flex flex-col justify-center mt-4 mr-16">
+    <div class="flex flex-col justify-center mt-4 md:mx-8">
       <span class="font-bold text-gray-800 text-xl text-center">John Doe</span>
       <span class="mt-2 text-center text-gray-500">
         Massachusetts Institute of Technology
@@ -31,20 +30,18 @@
         </svg>
         <span>Silicon Valley, CA</span>
       </div>
-      <span class="mt-3 text-center text-blue-400 text-sm"
-        >johndoe@example.com</span
-      >
+      <span class="mt-3 text-center text-blue-400 text-sm">johndoe@example.com</span>
     </div>
   </div>
-  <div class="rounded-b-lg grid grid-rows-3 ml-16">
-    <div class="shadow-sm grid grid-cols-2">
+  <div class="rounded-b-lg grid grid-rows-3 md:mx-8">
+    <div class="shadow-sm grid grid-cols-1 md:grid-cols-2">
         <span class="text-base font-semibold text-gray-800">
             About me
             <p class="mx-4 text-sm font-light text-gray-400">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse quis massa vel mi accumsan tempus.
             </p>
         </span>
-        <div class="flex justify-center items-center mx-auto">
+        <div class="flex justify-center items-center">
             <button class="bg-red-500 w-auto h-10 px-4 py-1 rounded-lg text-white font-semibold flex items-center space-x-2 hover:bg-red-600 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5">
                     <path d="M10.75 4.75a.75.75 0 0 0-1.5 0v4.5h-4.5a.75.75 0 0 0 0 1.5h4.5v4.5a.75.75 0 0 0 1.5 0v-4.5h4.5a.75.75 0 0 0 0-1.5h-4.5v-4.5Z" />
@@ -53,7 +50,7 @@
             </button>            
         </div>
     </div>
-    <div class="shadow-sm grid grid-cols-2 mt-4">
+    <div class="shadow-sm grid grid-cols-1 md:grid-cols-2 mt-4">
         <span class="text-base font-semibold text-gray-800">
             Skills
             <p class="mx-4 text-sm font-light text-gray-400">
@@ -69,7 +66,7 @@
             </button>            
         </div>
     </div>
-    <div class="shadow-sm grid grid-cols-2 mt-4 mb-4">
+    <div class="shadow-sm grid grid-cols-1 md:grid-cols-2 mt-4 mb-4">
         <span class="text-base font-semibold text-gray-800">
             Studies
             <p class="mx-4 text-sm font-light text-gray-400">
@@ -87,3 +84,6 @@
     </div>
   </div>
 </div>
+
+
+
